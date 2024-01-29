@@ -29,7 +29,7 @@ The Todo List App is a full-stack application that allows users to manage their 
 ![Todo List App Screenshot 1](client/images/screenshot1.png)
 ![Todo List App Screenshot 2](client/images/screenshot2.png)
 
-Explore a live demo of the Todo List App [here](https://todolistapp.example.com).
+Explore a live demo of the Todo List App [here](https://immense-castle-11296-affffce4cc46.herokuapp.com/).
 
 
 - **Frontend**:

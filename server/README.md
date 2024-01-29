@@ -28,7 +28,7 @@ The backend of the Todo List App serves as the core server logic for managing an
 ![Todo List App Screenshot 1](images/screenshot1.png)
 ![Todo List App Screenshot 2](images/screenshot2.png)
 
-Explore a live demo of the Todo List App [here](https://todolistapp.example.com).
+Explore a live demo of the Todo List App [here](https://immense-castle-11296-affffce4cc46.herokuapp.com/).
 
 
 ## Technologies Used
