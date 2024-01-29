@@ -17,7 +17,7 @@ const TodoList: React.FC = () => {
     setIsLoading(true); // Begin loading
     try {
       // Fetch the list of todos from the server
-      const response = await fetch("http://localhost:5000/api/todos");
+      const response = await fetch("https://todo-list-app-backend-03d4541305dd.herokuapp.com/api/todos");
       if (response.ok) {
         // Parse and set the todos if the response is successful
         const data = (await response.json()) as Todo[];

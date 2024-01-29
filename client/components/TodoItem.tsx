@@ -27,7 +27,7 @@ const TodoItem: React.FC<TodoItemProps> = ({ todo, refreshTodos }) => {
   const handleDelete = async () => {
     try {
       const response = await fetch(
-        `http://localhost:5000/api/todos/${todo._id}`,
+        `https://todo-list-app-backend-03d4541305dd.herokuapp.com/${todo._id}`,
         {
           method: "DELETE",
         }
@@ -58,7 +58,7 @@ const TodoItem: React.FC<TodoItemProps> = ({ todo, refreshTodos }) => {
 
     try {
       const response = await fetch(
-        `http://localhost:5000/api/todos/${todo._id}`,
+        `https://todo-list-app-backend-03d4541305dd.herokuapp.com/api/todos/${todo._id}`,
         {
           method: "PUT",
           headers: {
@@ -103,7 +103,7 @@ const TodoItem: React.FC<TodoItemProps> = ({ todo, refreshTodos }) => {
       };
 
       const response = await fetch(
-        `http://localhost:5000/api/todos/${todo._id}`,
+        `https://todo-list-app-backend-03d4541305dd.herokuapp.com/api/todos/${todo._id}`,
         {
           method: "PUT",
           headers: {

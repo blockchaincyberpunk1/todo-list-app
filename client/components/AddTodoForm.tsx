@@ -50,7 +50,7 @@ const AddTodoForm: React.FC<AddTodoFormProps> = ({ onNewTodo }) => {
     setIsLoading(true); // Enables the loading state.
     try {
       // API request to add a new todo
-      const response = await fetch("http://localhost:5000/api/todos", {
+      const response = await fetch("https://todo-list-app-backend-03d4541305dd.herokuapp.com/api/todos", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
